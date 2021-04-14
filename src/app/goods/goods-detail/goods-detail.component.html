@@ -1,0 +1,18 @@
+<h4>{{goods.name}}</h4>
+<div *ngFor="let attribute of goods.attributes">
+  <div>Бренд: {{attribute.brand}}</div>
+  <div>Происхождение: {{attribute.origin}}</div>
+  <div>Размер: {{attribute.size}}</div>
+  <div>Модель: {{attribute.model}}</div>
+  <div>Тип: {{attribute.type}}</div>
+  <div>Цена: <input [formControl]="priceInput"></div>
+  <div class="error" *ngIf="priceInput.invalid && (priceInput.dirty || priceInput.touched)">Только цифры и знаки разделения</div>
+</div>
+
+<select class="currency" (change)="selectPrice($event)">
+  <option *ngFor="let price of prices | keyvalue" [value]="price.value">
+    {{price.key}}
+  </option>
+</select>
+
+

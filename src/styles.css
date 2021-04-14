@@ -1,1 +1,83 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.containter {
+  border: 1px solid black;
+}
+
+.sidebar {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 500px;
+  overflow-y: auto;
+  z-index: 200;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar p {
+  border-bottom: black solid 1px;
+}
+
+.sidebar p:last-child {
+  margin: 0;
+  border-bottom: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar a.active  {
+  color: red;
+}
+
+.content-detail {
+  position: relative;
+  left: 15px;
+  margin-bottom: 15px;
+}
+
+.content-similiar {
+  position: relative;
+  left: 15px;
+}
+
+.flex {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.currency {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.active,.error {
+  color:red;
+}
+

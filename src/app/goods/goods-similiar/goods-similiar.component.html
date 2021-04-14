@@ -1,0 +1,10 @@
+<div class="flex" *ngFor="let goodsCategory of goodsCategoryData$ | async | slice:0:5">
+  <div class="flex-item" *ngFor="let attribute of goodsCategory.attributes">
+    <div>Бренд: {{attribute.brand}}</div>
+    <div>Происхождение: {{attribute.origin}}</div>
+    <div>Размер: {{attribute.size}}</div>
+    <div>Модель: {{attribute.model}}</div>
+    <div>Тип: {{attribute.type}}</div>
+    <a target="_blank" [href]="attribute.link">Ссылка на товар</a>
+  </div>
+</div>

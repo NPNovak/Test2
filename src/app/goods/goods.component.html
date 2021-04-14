@@ -1,0 +1,12 @@
+<div id="header"><h1>Шапка</h1></div>
+<div class="containter clearfix">
+  <div class="sidebar" *ngIf="goodsData$ | async as goods">
+    <p *ngFor="let good of goods"><a [ngClass]="{'active':selectedGoods?.id === good.id}" [routerLink]="['/goods']" [queryParams]="{ index: good.id}">{{good.name}}</a></p>
+  </div>
+  <div class="content-detail" *ngIf="selectedGoods">
+    <app-goods-detail [goods]="selectedGoods"></app-goods-detail>
+  </div>
+  <div class="content-similiar" *ngIf="selectedGoods?.category">
+    <app-goods-similiar [category]="selectedGoods.category"></app-goods-similiar>
+  </div>
+</div>

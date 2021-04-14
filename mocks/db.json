@@ -1,0 +1,196 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "name": "Радиостанция Baofeng UV-5R",
+      "category": "walkie-talkies",
+      "attributes": [
+        {
+          "price": 165.06,
+          "brand": "BAOFENG",
+          "origin": "Китай",
+          "size": "100×52×32 мм",
+          "model": "UV-5R",
+          "type": "Портативная",
+          "link": "https://aliexpress.ru/item/10000091343767.html?spm=a2g0o.productlist.0.0.558320f5fgZ0x6&algo_pvid=a1b9d4c0-91b5-4ef0-a9c3-4d818e05cef8&algo_expid=a1b9d4c0-91b5-4ef0-a9c3-4d818e05cef8-0&btsid=0b8b15c416182302976291289ef907&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&sku_id=20000000127290210"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Радиостанция Baofeng UV-5R 8W",
+      "category": "walkie-talkies",
+      "attributes": [
+        {
+          "price": 1790,
+          "brand": "BAOFENG",
+          "origin": "Китай",
+          "size": "100×52×32 мм",
+          "model": "UV-5R 8W",
+          "type": "Портативная",
+          "link": "https://aliexpress.ru/item/10000091317060.html?spm=a2g0o.productlist.0.0.558320f5fgZ0x6&algo_pvid=a1b9d4c0-91b5-4ef0-a9c3-4d818e05cef8&algo_expid=a1b9d4c0-91b5-4ef0-a9c3-4d818e05cef8-1&btsid=0b8b15c416182302976291289ef907&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&sku_id=20000000127248383"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Рация Retevis RT649B RT49B 2 шт. PMR446 портативная двухсторонняя рация для охоты Micro USB зарядка VOX радио",
+      "category": "walkie-talkies",
+      "attributes": [
+        {
+          "price": 2314.61,
+          "brand": "RETEVIS",
+          "origin": "Китай",
+          "size": "174 x 54 x 32mm",
+          "model": "PMR:RT649B or FRS:RT49B",
+          "type": "Портативная",
+          "link": "https://aliexpress.ru/item/1005001494957229.html?spm=a2g0o.productlist.0.0.558320f5fgZ0x6&s=p&ad_pvid=202104120524572840705848057590009858915_6&algo_pvid=aed471ef-da34-4f7d-b23e-36bc85a221ae&algo_expid=aed471ef-da34-4f7d-b23e-36bc85a221ae-5&btsid=0b8b15c416182302976291289ef907&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Retevis RT30 Walkie Talkie для детей 2 шт. мультяшная сова дизайн детское радио 0,5 Вт Walky Talky лучшие подарки игрушки для мальчиков и девочек",
+      "category": "walkie-talkies",
+      "attributes": [
+        {
+          "price": 1447.13,
+          "brand": "RETEVIS",
+          "origin": "Китай",
+          "size": "119x47x29mm/4.69x1.85x1.14in",
+          "model": "RT30",
+          "type": "Портативная",
+          "link": "https://aliexpress.ru/item/32879392499.html?spm=a2g0o.productlist.0.0.558320f5fgZ0x6&algo_pvid=aed471ef-da34-4f7d-b23e-36bc85a221ae&algo_expid=aed471ef-da34-4f7d-b23e-36bc85a221ae-9&btsid=0b8b15c416182302976291289ef907&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Retevis H777 Plus PMR446 Радио рация 1 или 2 шт. PTT рации PMR FRS H777 USB портативная двухсторонняя рация для охоты",
+      "category": "walkie-talkies",
+      "attributes": [
+        {
+          "price": 2.59,
+          "brand": "RETEVIS",
+          "origin": "Китай",
+          "size": "170*57*35mm",
+          "model": "PMR:H777 plus or FRS:H777",
+          "type": "Портативная",
+          "link": "https://aliexpress.ru/item/32603727823.html?spm=a2g0o.productlist.0.0.558320f5fgZ0x6&algo_pvid=aed471ef-da34-4f7d-b23e-36bc85a221ae&algo_expid=aed471ef-da34-4f7d-b23e-36bc85a221ae-10&btsid=0b8b15c416182302976291289ef907&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "BAOFENG T1 портативная мини-рация, двухсторонняя, УВЧ, 400-470 МГц, 20 каналов, FM, CB, портативный приемопередатчик",
+      "category": "walkie-talkies",
+      "attributes": [
+        {
+          "price": null,
+          "brand": "BAOFENG",
+          "origin": "Китай",
+          "size": "108 x 55 x 21 mm",
+          "model": "BF-T1",
+          "type": "Портативная",
+          "link": "https://aliexpress.ru/item/32819094574.html?spm=a2g0o.productlist.0.0.558320f5fgZ0x6&algo_pvid=aed471ef-da34-4f7d-b23e-36bc85a221ae&algo_expid=aed471ef-da34-4f7d-b23e-36bc85a221ae-13&btsid=0b8b15c416182302976291289ef907&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "F196 Black, 1.77'' 128x160, 32MB RAM, 32MB, up to 16GB flash, 2 Sim, BT v2.1, Micro-USB, 600mAh, 62g, 113,5 ммx46,8 ммx12,2 мм",
+      "category": "smartphone",
+      "attributes": [
+        {
+          "price": 690,
+          "brand": "F+",
+          "origin": "Китай",
+          "size": "6,55",
+          "model": "TEST",
+          "type": "Стандартный",
+          "link": "https://aliexpress.ru/item/20000004709346.html?spm=a2g0o.productlist.0.0.213e541eekUrs3&algo_pvid=064d847c-8ea0-4186-814f-b2f08d394222&algo_expid=064d847c-8ea0-4186-814f-b2f08d394222-1&btsid=0b8b036d16182314078406288e7a7e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Мобильный телефон Olmio C17, для пожилых людей, 038522",
+      "category": "smartphone",
+      "attributes": [
+        {
+          "price": 1390,
+          "brand": "OLMIO",
+          "origin": "Россия",
+          "size": "5,06",
+          "model": "TES",
+          "type": "Стандартный",
+          "link": "https://aliexpress.ru/item/10000352857973.html?spm=a2g0o.productlist.0.0.213e541eekUrs3&algo_pvid=064d847c-8ea0-4186-814f-b2f08d394222&algo_expid=064d847c-8ea0-4186-814f-b2f08d394222-3&btsid=0b8b036d16182314078406288e7a7e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&sku_id=20000000182676282"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Смартфон Vertex Impress Lion [5,3G, 4400mAh]",
+      "category": "smartphone",
+      "attributes": [
+        {
+          "price": 3690,
+          "brand": "Vertex",
+          "origin": "Китай",
+          "size": "5,0",
+          "model": "MTK",
+          "type": "Стандартный",
+          "link": "https://aliexpress.ru/item/1005002101628026.html?spm=a2g0o.productlist.0.0.213e541eekUrs3&algo_pvid=064d847c-8ea0-4186-814f-b2f08d394222&algo_expid=064d847c-8ea0-4186-814f-b2f08d394222-4&btsid=0b8b036d16182314078406288e7a7e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Смартфон ZTE Blade A5 2020 15,5 см (6.09) 19.5:9 1560 x 720, 4x1,6 ГГц+4x1,2 ГГц, 8 Core, 2GB RAM, 32GB, 13Mpix+2Mpix/8Mpix",
+      "category": "smartphone",
+      "attributes": [
+        {
+          "price": 7910.1,
+          "brand": "ZTE",
+          "origin": "Казахстан",
+          "size": "6,09",
+          "model": "A5",
+          "type": "Нестандартный",
+          "link": "https://aliexpress.ru/item/10000040124503.html?spm=a2g0o.productlist.0.0.213e541eekUrs3&algo_pvid=064d847c-8ea0-4186-814f-b2f08d394222&algo_expid=064d847c-8ea0-4186-814f-b2f08d394222-9&btsid=0b8b036d16182314078406288e7a7e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Blackview глобальная версия BV5100 4 Гб + 64 Гб мобильный телефон IP68 Водонепроницаемый прочный телефон 5580 мАч 5,7 Android 10 NFC 16MP смартфон",
+      "category": "smartphone",
+      "attributes": [
+        {
+          "price": 11161.63,
+          "brand": "BLACKVIEW",
+          "origin": "Япония",
+          "size": "5,7",
+          "model": "BV5100",
+          "type": "Очень нестандартный",
+          "link": "https://aliexpress.ru/item/1005002399928834.html?spm=a2g0o.productlist.0.0.213e541eekUrs3&s=p&ad_pvid=202104120543271033294464535400009865292_3&algo_pvid=67778bc4-39bc-4a48-91c7-303fe6abdd71&algo_expid=67778bc4-39bc-4a48-91c7-303fe6abdd71-2&btsid=0b8b036d16182314078406288e7a7e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Galay S21 ультра 7,3 дюймовый смартфон 6800 мА/ч, разблокировать глобальная версия 4G/5G Android 10,0 24MP + 48MP 12 Гб + 512 Гб Celulares смартфон",
+      "category": "smartphone",
+      "attributes": [
+        {
+          "price": 10543.71,
+          "brand": "CMX",
+          "origin": "Китай",
+          "size": "7,2",
+          "model": "S21",
+          "type": "Очень нестандартный",
+          "link": "https://aliexpress.ru/item/1005002364180156.html?spm=a2g0o.productlist.0.0.213e541eekUrs3&s=p&ad_pvid=202104120543271033294464535400009865292_6&algo_pvid=67778bc4-39bc-4a48-91c7-303fe6abdd71&algo_expid=67778bc4-39bc-4a48-91c7-303fe6abdd71-5&btsid=0b8b036d16182314078406288e7a7e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+        }
+      ]
+    }
+  ]
+}
