@@ -3,16 +3,16 @@ import {Goods} from '../../http/goods.type';
 import {GoodsService} from '../../http/goods.service';
 import {FormControl, Validators} from '@angular/forms';
 import {DecimalPipe} from '@angular/common';
-import {Subject} from 'rxjs';
-import {debounceTime, distinctUntilChanged, takeUntil} from 'rxjs/operators';
+import {debounceTime, distinctUntilChanged, filter, mergeMap, takeUntil, tap} from 'rxjs/operators';
+import {UnsubOnDestroy} from '../../utils/unsub-on-destroy';
+import {EMPTY, of} from 'rxjs';
 
 @Component({
   selector: 'app-goods-detail',
   templateUrl: './goods-detail.component.html',
   styleUrls: ['./goods-detail.component.css']
 })
-export class GoodsDetailComponent implements OnChanges, OnInit, OnDestroy{
-  private destroy$ = new Subject();
+export class GoodsDetailComponent extends UnsubOnDestroy implements OnChanges, OnInit, OnDestroy{
   @Input() goods!: Goods;
   priceInput!: FormControl;
   public prices: {[key: string]: number} = {
@@ -21,19 +21,24 @@ export class GoodsDetailComponent implements OnChanges, OnInit, OnDestroy{
   };
   public selectedPrice = 1;
 
-  constructor(private goodsService: GoodsService) {}
+  constructor(private goodsService: GoodsService) {
+    super();
+  }
 
   ngOnInit(): void {
     this.priceInput.valueChanges.pipe(
       debounceTime(2000),
       distinctUntilChanged(),
-      takeUntil(this.destroy$)
-    ).subscribe((value) => {
-      if (this.priceInput.valid){
-        this.goods.attributes[0].price = parseFloat(value.replace(',', '.'))  * this.selectedPrice;
-        this.goodsService.updateGoodPrice(this.goods.id, this.goods).subscribe();
-      }
-    });
+      mergeMap((params) => {
+        console.log(params);
+        if (this.priceInput.valid){
+          this.goods.attributes[0].price = parseFloat(params.replace(',', '.'))  * this.selectedPrice;
+          return this.goodsService.updateGoodPrice(this.goods.id, this.goods);
+        }
+        return EMPTY;
+      }),
+      takeUntil(this.unsubscribe$)
+    ).subscribe();
   }
 
   ngOnChanges(): void {
@@ -43,10 +48,5 @@ export class GoodsDetailComponent implements OnChanges, OnInit, OnDestroy{
   selectPrice(event: any): void {
     this.selectedPrice = event.target.value;
     this.priceInput.setValue(new DecimalPipe('en-US').transform(this.goods.attributes[0].price / this.selectedPrice, '1.2-2'));
-  }
-
-  ngOnDestroy(): void {
-    this.destroy$.next();
-    this.destroy$.complete();
   }
 }

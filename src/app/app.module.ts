@@ -16,13 +16,13 @@ import { GoodsSimiliarComponent } from './goods/goods-similiar/goods-similiar.co
     GoodsDetailComponent,
     GoodsSimiliarComponent
   ],
-    imports: [
-        BrowserModule,
-        HttpClientModule,
-        AppRoutingModule,
-        FormsModule,
-        ReactiveFormsModule
-    ],
+  imports: [
+      BrowserModule,
+      HttpClientModule,
+      AppRoutingModule,
+      FormsModule,
+      ReactiveFormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -25,7 +25,6 @@ export class GoodsService {
   }
 
   updateGoodPrice(id: number, good: Goods): any {
-    return this.httpClient.put<Goods>(this.path + 'goods/' + id, good)
-      .pipe(debounceTime( 2000));
+    return this.httpClient.put<Goods>(this.path + 'goods/' + id, good);
   }
 }
